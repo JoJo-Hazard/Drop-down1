@@ -1,0 +1,113 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  background-image: url("./joella.jpg");
+  background-position: center;
+  background-size: cover;
+}
+/* .logo { */
+  /* float: left; */
+  /* display: flex; */
+  /* text-transform: uppercase; */
+  /* color: rgb(16, 16, 133); */
+  /* font-size: 20px; */
+  
+/* } */
+.con {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 5%;
+  color: rgb(46, 161, 152);
+  font: size 80px;
+}
+.span1 {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  /* font-size: 55px; */
+}
+
+#search {
+  padding: 1.5%;
+  width: 50%;
+}
+.joj {
+  font-size: 55px;
+  line-height: 20pxB;
+}
+.menu {
+  background-color: grey;
+  text-align: center;
+  height: 13vh;
+}
+.menu ul {
+  display: inline-flex;
+  list-style: none;
+}
+.menu ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: rgb(23, 14, 150);
+  text-transform: uppercase;
+}
+.menu ul li a:hover {
+  color: rgb(223, 198, 91);
+}
+.submenu {
+  display: none;
+}
+.menu ul li:hover .submenu {
+  display: block;
+  position: absolute;
+  background-color: rgb(146, 145, 139);
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.menu ul li:hover .submenu ul {
+  display: block;
+  margin: 10px;
+}
+.menu ul li:hover .submenu ul li {
+  background: transparent;
+  border-bottom: 1px dotted #fff;
+  border-radius: 0;
+}
+.menu ul li:hover .submenu ul li:last-child {
+  border-bottom: none;
+}
+.submenu1 {
+  display: none;
+}
+.menu ul li:hover .submenu1 {
+  display: block;
+  position: absolute;
+  background-color: rgb(146, 145, 139);
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.menu ul li:hover .submenu1 ul {
+  display: block;
+}
+.submenu2 {
+  display: none;
+}
+.menu ul li:hover .submenu1 ul li:hover .submenu2 {
+  display: inline-block;
+  position: absolute;
+  background-color: rgb(134, 121, 48);
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.menu ul li:hover .submenu1 ul li:hover .submenu2 ul {
+  display: inline-block;
+}
